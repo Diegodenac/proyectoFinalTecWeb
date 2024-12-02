@@ -5,6 +5,6 @@ import { CreateProductComponent } from './paginas/create-product/create-product.
 
 export const routes: Routes = [
     {path: 'products', component: ProductsComponent},
-    {path: 'products_id', component:ProductDetailComponent},
+    {path: 'products/:id', component:ProductDetailComponent},
     {path: 'create', component:CreateProductComponent}
 ];
